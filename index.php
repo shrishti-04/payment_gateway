@@ -284,7 +284,7 @@ error_reporting(0);
     <i class="fab fa-instagram sicon fa-2x"></i>
     <i class="fas fa-envelope sicon fa-2x"></i>
   <p>
-     © Copywrite 2020 PlayPen
+     © Copywrite 2021 PlayPen
   </p>
   </footer>
 
