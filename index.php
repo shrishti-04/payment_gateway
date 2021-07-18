@@ -165,7 +165,7 @@ include_once 'dbconfig.php';
                     <h3 class="pricing-text">Dog</h3>
                   </div>
                   <div class="card-body">
-                    <h2>₹55 / mo</h2>
+                    <h2>₹120 / mo</h2>
                     <p>5 Matches Per Day</p>
                     <p>10 Messages Per Day</p>
                     <p>Unlimited App Usage</p>
@@ -175,7 +175,7 @@ include_once 'dbconfig.php';
 											<script
 												src="https://checkout.stripe.com/checkout.js" class="stripe-button" style="background:#000"
 												data-key="<?php echo $publishableKey?>"
-												data-amount="5500"
+												data-amount="12000"
 												data-name="PlayPen"
 												data-description="Have a great experience here."
 												data-image="https://saveanimals.io/img/logo.png"
@@ -195,7 +195,7 @@ include_once 'dbconfig.php';
                   <h3 class="pricing-text">Cat</h3>
                 </div>
                 <div class="card-body">
-                  <h2>₹55 / mo</h2>
+                  <h2>₹120 / mo</h2>
                   <p>Unlimited Matches</p>
                   <p>Unlimited Messages</p>
                   <p>Unlimited App Usage</p>
@@ -204,7 +204,7 @@ include_once 'dbconfig.php';
 										<script
 											src="https://checkout.stripe.com/checkout.js" class="stripe-button" style="background:#000"
 											data-key="<?php echo $publishableKey?>"
-											data-amount="5500"
+											data-amount="12000"
 											data-name="PlayPen"
 											data-description="Have a great experience here."
 											data-image="https://saveanimals.io/img/logo.png"
@@ -224,7 +224,7 @@ include_once 'dbconfig.php';
                   <h3 class="pricing-text">Hamster</h3>
                 </div>
                 <div class="card-body">
-                  <h2>₹55 / mo</h2>
+                  <h2>₹120 / mo</h2>
                   <p>Pirority Listing</p>
                   <p>Unlimited Messages</p>
                   <p>Unlimited App Usage</p>
@@ -233,7 +233,7 @@ include_once 'dbconfig.php';
 										<script
 											src="https://checkout.stripe.com/checkout.js" class="stripe-button" style="background:#000"
 											data-key="<?php echo $publishableKey?>"
-											data-amount="5500"
+											data-amount="12000"
 											data-name="PlayPen"
 											data-description="Have a great experience here."
 											data-image="https://saveanimals.io/img/logo.png"
@@ -253,7 +253,7 @@ include_once 'dbconfig.php';
                   <h3 class="pricing-text">Rabbit</h3>
                 </div>
                 <div class="card-body">
-                  <h2>₹55 / mo</h2>
+                  <h2>₹120 / mo</h2>
                   <p>Pirority Listing</p>
                   <p>Unlimited Messages</p>
                   <p>Unlimited App Usage</p>
@@ -262,7 +262,7 @@ include_once 'dbconfig.php';
 										<script
 											src="https://checkout.stripe.com/checkout.js" class="stripe-button" style="background:#000"
 											data-key="<?php echo $publishableKey?>"
-											data-amount="5500"
+											data-amount="12000"
 											data-name="PlayPen"
 											data-description="Have a great experience here."
 											data-image="https://saveanimals.io/img/logo.png"
