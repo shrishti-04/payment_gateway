@@ -9,8 +9,7 @@ if (isset($_POST['submit'])) { // Check press or not Post Comment Button
 	$email = $_POST['email']; // Get Email from form
 	$card_num = $_POST['card_number']; // Get number from card
 
-	$sql = "INSERT INTO comments (name, email, comment)
-			VALUES ('$name', '$email', '$comment')";
+	$sql = "INSERT INTO orders (email, card_number) VALUES ('$name', '$email', '$comment')";
 	$result = mysqli_query($conn, $sql);
 	if ($result) {
 		echo "<script>alert('Comment added successfully.')</script>";
