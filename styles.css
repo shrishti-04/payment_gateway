@@ -1,0 +1,186 @@
+                                                         /* Body */
+
+body{
+  text-align: center;
+}
+
+                                                        /* Paragraph */
+
+p{
+  color: #8f8f8f;
+}
+
+                                                        /* Headings */
+
+h1,h2,h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 5;
+  padding-bottom: 2px;
+}
+
+                                                      /* Intro Section */
+
+#intro{
+  background-color: #0a9396;
+  color: white;
+}
+
+.container{
+    padding: 2% 15% 8%;
+}
+
+                                                  /* Navigation Section */
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.download-btn{
+  margin: 6% 3% 5% 0;
+}
+
+.intro-images{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+                                                /* Features Section */
+
+#features{
+  padding: 8% 10%;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+}
+
+.usage{
+  padding: 0 20%;
+  margin-top: 8%;
+  margin-bottom:8%;
+}
+
+.types{
+  padding: 0 20%;
+  margin-top: 8%;
+  margin-bottom:8%;
+}
+
+.welcome{
+  padding: 0 20%;
+  margin-top: 8%;
+  margin-bottom:8%;
+}
+
+.icon{
+  margin-bottom:15px;
+  color: #94d2bd;
+}
+
+.icon:hover{
+  color: #0a9396;
+}
+
+                                                   /* Testimonials Section */
+
+#testimonials{
+  padding: 7% 15%;
+  background-image: url('photos/dog.png');
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  padding: 15px;
+}
+
+                                                      /* Press Section */
+
+#press{
+  background-color: #94d2bd;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-images{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+                                                    /* Pricing Section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 4% 3%;
+}
+
+.stripe-button{
+  background-color: #000;
+}
+
+input:focus
+{
+    outline-offset: 0px;
+    outline: none;
+    border: none;
+}
+
+                                                     /* Media Queries */
+
+@media (max-width:1028px)  {
+
+  #intro{
+    text-align: center;
+  }
+
+  .intro-images{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+                                                      /* cta Section */
+
+#cta{
+  text-align: center;
+  background-color: #005f73;
+  padding: 7% 15%;
+}
+
+                                                    /* Footer Section */
+
+#footer{
+  padding: 3% 8%;
+  text-align: center;
+}
+
+.sicon{
+  margin: 3% 2%;
+  size: 5px;
+}
+.sicon:hover{
+  color: #005f73;
+}
