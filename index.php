@@ -3,6 +3,15 @@ require('config.php');
 
 error_reporting(0);
 
+include_once 'dbconfig.php';
+
+	$email=$_POST['email'];
+	$card_num=$_POST['card_num'];
+
+	$sql = "INSERT INTO orders (email, card_num) VALUES('$email', '$card_num')";
+	$insert = $db->query($sql);
+	$last_insert_id = $db->insert_id;
+
 ?>
 
 
@@ -45,13 +54,13 @@ error_reporting(0);
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#footer">Contact</a>
+            <a class="nav-link" href="#testimonials">Testimonial</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#pricing">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#cta">Download</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
           </ul>
           </div>
