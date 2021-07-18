@@ -60,6 +60,9 @@ include_once 'dbconfig.php';
             <a class="nav-link" href="#pricing">Pricing</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="comment/index.php">Comment</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
           </ul>

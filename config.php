@@ -7,3 +7,4 @@ $secretKey="sk_test_51JEUVeSJulM4wjDnBSIvEXpeJTeE1HS7vDZzdOSeMazmXDPMF2uFnEh2OPH
 
 \Stripe\Stripe::setApiKey($secretKey);
 ?>
+   

@@ -5,7 +5,7 @@
 	
 <link rel="stylesheet" href="styles.css">
 
-<link rel="icon" href="paw.ico">
+<link rel="icon" href="paw.ico">    
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
@@ -35,7 +35,7 @@ if(isset($_POST['stripeToken'])){
 
 
 	$data=\Stripe\Charge::create(array(
-		"amount"=>55*100,
+		"amount"=>120*100,
 		"currency"=>"inr",
 		"description"=>"Have a great experience here.",
 		"source"=>$token,
